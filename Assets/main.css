@@ -532,7 +532,19 @@ img {
         height: auto;
     }
 
+    .tableExample {
+        margin-left: 42%;
+    }
 
+    .tableExample th {
+        color: #FFFFFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100%;
+    }
+    table, th, td {
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
 
     /*******************************************
         Reusable
