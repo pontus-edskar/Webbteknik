@@ -34,6 +34,12 @@ img {
         justify-content: space-between;
         display: flex;
 }
+
+@media print {
+    .subpages {
+        display: none !important;
+    }
+}
     
 .first {
         position: relative;
