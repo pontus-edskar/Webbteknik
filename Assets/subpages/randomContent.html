@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Random Content</title>
+        <script src="../js/randomizer.js"></script>
+        <script src="../js/task3.js"></script>
+        <script src="../js/secondTask3.js"></script>
+</head>
+<body id="newBody">
+        <div>
+                <label for="colorPicker">Choose Background Color: </label>
+                <input type="color" id="colorPicker" onchange="changeBackgroundColor()">
+        </div>
+
+        <div id="imageJsContainer">
+                <img id="randomImage" alt="Random Image" style="width: 50%;">
+        </div>
+        
+        <div class="changeImgJs" >
+                <img src="../library/images/bild5Galleri.png"  id="onMouseOverImg"  alt="Picture" onmouseover="changeImage()" onmouseout="resetImage()" style="width: 50%;">
+        </div>
+</body>
+</html>

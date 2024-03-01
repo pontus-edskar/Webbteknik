@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../main.css">
         <title>Bestall - Lapoina</title>
+        <script src="../js/main.js"></script>
 </head>
-<body>
+<body onclick="onBodyClick()">
         <div class="headerSubpage">
                 <div class="goBack">
-                        <h1></h1>
+                        <h1><</h1>
                 </div>
                 <h1 class="nameOfSubpage">Meny</h1> 
                 <div class="homeLogo">
@@ -117,7 +118,7 @@
                                 <textarea name="userInput" id="userInput3" cols="30" rows="10" placeholder="Adress..."></textarea>
                         </div>
                         <div class="sendOrderButton">
-                                <button class="sendButton">Skicka</button>
+                                <button class="sendButton" id="showMessageButton">Skicka</button>
                         </div>
 
                 </div>
